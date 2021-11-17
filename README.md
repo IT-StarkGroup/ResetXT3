@@ -4,7 +4,8 @@ Stark Reset for Jenbacher Dia.ne XT3 engine controller.
 ## About
 The Stark RESET application allows for remote monitoring of and interacting with the Jenbacher DIA.NE XT3 gas engine controller.
 The extended version of the application also allows to remotely acknowledge and reset alarm conditions as well as operate the engine (see below).
-This application is based on Apace Guacamole™ and licenced under Apache Licence 2.0.
+
+This application is based on Apace Guacamole™ and licenced under Apache Licence 2.0.  
 Version: 1.0 – 2021, Stark Engineering Engineering Consulting Pty Ltd
 
 ## Installation
@@ -40,7 +41,7 @@ An administrator can manage users and credentials in the 'Users' menu.
 ### RESET – Selector Switches
 Disable or enable the functionality of the Service, Demand and Sync Selector Switch.
 
-**Note**
+**Note**  
 Implementation of this functionality requires additional software and hardware to be implemented. Please contact our Support team for further information.
 
 ## Use of Selector Switches
