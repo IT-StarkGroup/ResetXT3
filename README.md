@@ -1,4 +1,4 @@
-# Reset XT3
+# RESET XT3
 Stark Reset for Jenbacher Dia.ne XT3 engine controller.
 
 ## About
