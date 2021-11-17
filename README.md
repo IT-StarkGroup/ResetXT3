@@ -30,7 +30,7 @@ An administrator can manage users and credentials in the 'Users' menu.
 ## Configuration
 ### Plant Identification
 - Plant Name: fill out as desired. The name is displayed on the Main screen.
-- J-number: fill out as desired. The number is displayed on the Main screen.
+- J-number: this is the engine identifiction number, fill out as desired. The number is displayed on the Main screen.
 
 ### VNC Server (B&R)
 - IP address: enter the DIA.NE XT3 engine controller IP address. *(Default: 192.168.123.11)*
