@@ -10,11 +10,16 @@ Version: 1.0 – 2021, Stark Engineering Engineering Consulting Pty Ltd
 
 ## Installation
 ### Installation requirements
-To run the application you require a Java runtime environment (JRE), available for Windows, MacOs or Linux. Only Java 1.8 is supported.
+To run the application you require:
+1. a Java runtime environment (JRE), available for Windows, MacOs or Linux. Only Java 1.8 is supported.
+2. the Guacamole Daemon (guacd) running on port 4822. Only version 0.9.14 of guacd has been tested.
 
 ### Running the application
 Once the JRE is installed, copy the application 'StarkResetXT3.jar' to a folder of choice and run the application from the command prompt with 
 > />java –jar StarkResetXT3.jar
+
+By default the application will be available on port 8080. A different port can be set at time of launch: eg. for port 8088:
+> />java –jar StarkResetXT3.jar -httpPort=8088
 
 ### Connecting to Dia.ne XT3 controller
 The application needs an Ethernet connection to the Dia.ne XT3 controller. The IP address of the controller should be set under ‘Configuration’ (see below).
@@ -27,7 +32,7 @@ For troubleshooting we recommend using any VNC viewer software.
 The RESET application provides the option to visualise and operate/override the selector switches on the Jenbacher XT3 control panel. However, this cannot be achieved by the RESET application alon. For this purpose the app must communicate with a controller that can interact with physical wiring in the control panel. The app communicates with the controller through WebSockets. Please contact our support team for further details. A recommended hardware platform is the Revolution Pi from Kunbus (https://revolutionpi.com/revpi-connect/) 
 
 ## Logging in
-URL of the login page: http://\<your-ip-address\>/StarkResetXT3
+URL of the login page: http://\<your-ip-address\>:<port>/StarkResetXT3
   
 The application allows for two levels of log-in:
 - Administrator *(Default: admin / password)*
